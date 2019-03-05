@@ -1,0 +1,68 @@
+body {
+    background-color: #7ba7aa;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.img-logo {
+
+    background-image: url(/Users/halonhamilton/Desktop/FramedWithGrace/FWG-logo.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+  
+}
+
+h1{
+    color: snow;
+    text-align: center;
+}
+
+img.picture{
+   align-self: center;
+}
+
+img.picture{
+    border-style: solid;
+    border-color: snow;
+    border-width: .5vmax;
+}
+
+img.picture {
+    width: 250px;
+    padding: 0px 0;
+    line-height: 0;
+    margin: auto;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: .7s; transform: .5s;
+}
+
+img.picture:hover{
+    transform: scale(1.5)
+}
+
+img.landscape{
+    border-style: solid;
+    border-color: snow;
+    border-width: .5vmax
+}
+
+img.landscape {
+    width: 350px;
+    padding: 0px 0;
+    line-height: 0;
+    margin: auto;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: .7s; transform: .5s;
+}
+
+img.landscape:hover{
+    transform: scale(1.5)
+}
