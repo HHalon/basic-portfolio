@@ -20,6 +20,7 @@ header {
 }
 
 .wrapper-about {
+    overflow: auto;
     width: 960px;
     border: 1px;
     border-color: #dddddd;
@@ -46,12 +47,41 @@ body {
     margin: 0 auto;
     width: 960px;
     background-color: #fff;
+    cursor: pointer;
+    
 
+}
+
+#about{
+    transition: 1s; transform: 1s;
+}
+
+#portfolio{
+    transition: 1s; transform: 1s;
+}
+
+#contact{
+    transition: 1s; transform: 1s;
+}
+
+#about:hover {
+    transform: scale(1.5);
+}
+
+#portfolio:hover {
+    transform: scale(1.5);
+}
+
+#contact:hover {
+    transform: scale(1.5);
 }
 
 h2 {
 color: #4aaaa5;
 text-decoration: underline;
+border: 2%;
+border-color: #4aaaa5;
+margin:  0 2%;
 
 }
 
@@ -80,4 +110,17 @@ ul li a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: #4aaaa5;
+}
+.footer {
+    clear: both;
+    background-color: dimgray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+}
+footer {
+    margin-top: 2.3%;
+    color: lightgrey;
 }
